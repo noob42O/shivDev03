@@ -1,0 +1,55 @@
+/* Shiv Vashisht
+ CIS 376-01
+ DEV 03*/
+#firstbox{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.fc {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.fc > div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 60px;
+  font-size: 30px;
+}
+
+#leftbox{ 
+                float:left;  
+                background:Red; 
+                width:30%; 
+                height:200%; 
+            } 
+#midbox{ 
+                float:left; 
+                background:yellow; 
+                width:30%; 
+                height:200%; 
+            } 
+#endbox{ 
+                float:left;  
+                background:Green; 
+                width:30%; 
+                height:100%; 
+            } 
+#box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 200px;
+  height:100px;
+  background-color: blue;
+}
+#end {
+	float:Right;  
+    background:Grey; 
+    width:30%; 
+    height:200%; 
+ }
+
